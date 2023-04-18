@@ -1,6 +1,6 @@
 const liCatogoriesEl = document.querySelector("#categories");
 const countCategories = [...liCatogoriesEl.children];
-console.log(countCategories);
+// console.log(countCategories);
 console.log(`Number of categories: ${countCategories.length}`);
 
 countCategories.forEach((categories) => {
